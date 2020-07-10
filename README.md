@@ -60,13 +60,22 @@ Gada SMS is a service that provide to client on Salesforce can send sms to their
 ## Getting Started
 
 Follow instructions bellow to setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-1. Install Nodejs: [Install NodeJS document](https://nodejs.org/en/download/)
+1. Install Nodejs: [Install NodeJS Document](https://nodejs.org/en/download/)
+2. Install Docker: [Install Docker Document](https://nodejs.org/en/download/)
+3. Sign up Salesforce account: [Sign up Salesforce Account](https://www.salesforce.com/form/signup/freetrial-elf-v2)
+4. Setup connected apps on Salesforce for OAuth: [Setting OAuth Salesforce Application](https://help.salesforce.com/articleView?id=connected_app_create_api_integration.htm&type=5)
+```
+Now, you can copy Client ID, Client Secret to set up dotenv file later
+```
+5. Create an api to send sms
 
-2. Install Docker: [Install Docker document](https://nodejs.org/en/download/)
+<br/>
+
+:bangbang: Now you have to buy an api from 3rd party provider to send sms purpose. I suggest: [Vietguys](https://www.vietguys.biz/)
+
 
 
 ### Installation
