@@ -70,11 +70,7 @@ Follow instructions bellow to setting up your project locally.
 ```
 Now, you can copy Client ID, Client Secret to set up dotenv file later
 ```
-5. Create an api to send sms
-
-<br/>
-
-:bangbang: Now you have to buy an api from 3rd party provider to send sms purpose. I suggest: [Vietguys](https://www.vietguys.biz/)
+5. Create an api to send sms: :bangbang: Now, you have to buy an api from 3rd party provider to send sms purpose. I suggest: [Vietguys](https://www.vietguys.biz/)
 
 
 
