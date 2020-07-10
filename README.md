@@ -6,7 +6,6 @@
   </a>
   <h3 align="center">Gada SMS</h3>
   <p align="center">
-    <br />
     Provide you a service to send sms and manage sms
     <br />
     <a href="#">View video introduce</a>
@@ -37,13 +36,14 @@
 
 ## About The Project
 
+![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391237/pthqzboisozkmwcpchlo.png)
+<br />
+![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391576/nxqmr6smjuntkfpawimv.png)
+<br />
+![Gada  Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594400166/qnmlzzh7lyuyjoptjsxr.png)
+
 Gada SMS is a service that provide to client on Salesforce can send sms to their customer. We will get contact list fom client's Salesforce account. Beside that, we support an application to client for manage the messages was sent
 <br />
-
-![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391237/pthqzboisozkmwcpchlo.png)
-
-![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391576/nxqmr6smjuntkfpawimv.png)
-
 
 ### Built With
 
@@ -95,6 +95,21 @@ docker build -t gcalls-app .
 ```sh
 docker run -p 8000:8000 -d gcalls-app
 ```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+More information about how to setup this project
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+Any contributions you make are **greatly appreciated**.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 
 
 
