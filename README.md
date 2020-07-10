@@ -9,7 +9,9 @@
     <br />
     Provide you a service to send sms and manage sms
     <br />
-    <a href="https://smsgcalls.tk/">View Demo</a>
+    <a href="#">View video introduce</a>
+    ·
+    <a href="https://smsgcalls.tk/">View product</a>
     ·
     <a href="https://github.com/gada121982/Gada-sms-project/issues">Report Bug</a>
     ·
@@ -72,24 +74,27 @@ Now, you can copy Client ID, Client Secret to set up dotenv file later
 ```
 5. Create an api to send sms: :bangbang: Now, you have to buy an api from 3rd party provider to send sms purpose. I suggest: [Vietguys](https://www.vietguys.biz/)
 
-
-
 ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repository
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/gada121982/Gada-sms-project
 ```
-3. Install NPM packages
+2. Move to server foler
 ```sh
-npm install
+cd Gada-sms-project/server/
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+3. Setting up .env file
 
+![.env file screenshot](https://res.cloudinary.com/vinhhai/image/upload/v1594399110/vodlfmjd9olliah7emqy.png)
+
+
+4. Build Dockerfile
+```sh
+docker build -t gcalls-app .
+```
+```sh
+docker run -p 8000:8000 -d gcalls-app
+```
 
 
 
