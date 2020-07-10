@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/">
+  <link href="./static/css/login.manage.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap-fix">
+    <div class="wrap">
+      <img src="./static/media/logo.png" alt="logo">
+      <h2>Sign in</h2>
+      <form action="http://localhost:8000/auth/login" method="post">
+        <%
+          if(message) {%>
+        <div class="flash-message">
+          <span><%- message %></span>
+        </div>
+        <%}
+        %>
+        <div class="username">
+          <label for="username">Username</label>
+          <input type="text" id="username" name='username'>
+        </div>
+        <div class="password">
+          <label for="password">Password</label>
+          <input type="password" id="password" name='password'>
+        </div>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+
+    <script>
+      let form = document.querySelector('.wrap form')
+
+      form.addEventListener('submit', (event) => {
+        let username = document.querySelector('.username > input').value
+        localStorage.setItem('username', username)
+      })
+    </script>
+</body>
+
+</html>

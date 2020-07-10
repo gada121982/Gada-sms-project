@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/">
+  <link href="./static/css/login.sf.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap-fix">
+    <div class="wrap">
+      <img src="./static/media/logo.png" alt="logo">
+      <h2>Sign in</h2>
+      <form action="/auth/loginsf" method="post">
+        <div class="login-url">
+          <label for="login-url">Login url</label>
+          <input name='loginurl' type="text" id="login-url" placeholder="example: https://login.salesforce.com ">
+        </div>
+
+        <div class="submit">
+          <img src="./static/media/sflogo.png" alt="logosf">
+          <input type="submit" value="Login">
+        </div>
+
+      </form>
+    </div>
+</body>
+
+</html>

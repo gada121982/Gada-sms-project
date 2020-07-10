@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.respond-message-fail,
+.respond-message-success {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.respond-message-fail {
+  background-color: #fde3e6;
+  border: 1px solid rgb(212, 80, 80);
+}
+
+.respond-message-success {
+  background-color: #b6fbb6;
+  border: 1px solid rgb(0, 184, 61);
+}

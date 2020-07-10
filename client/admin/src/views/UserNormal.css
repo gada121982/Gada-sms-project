@@ -1,0 +1,217 @@
+.user-normal {
+  width: 80%;
+  padding: 0 5%;
+  padding-bottom: 40px;
+  background-color: white;
+  border-left: 30px solid#ebeff2;
+}
+
+.user-normal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+}
+
+.search-bar-user-normal {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ebeff2;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.search-bar-user-normal > input {
+  width: 85%;
+  margin-left: 15px;
+  background-color: #ebeff2;
+  outline: none;
+  border: none;
+}
+
+.search-bar-user-normal-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-user-normal {
+  background-color: #002A51;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.add-user-normal span{
+  color: white;
+  font-weight: 700;
+}
+
+.search-bar-user-normal-right > h3{
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.user-normal-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-normal-list thead {
+  display: flex;
+  width: 100%;
+}
+
+
+.user-normal-list thead tr{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.user-normal-list thead tr th{
+padding: 10px 10px;
+ border-right: 1px solid black;
+}
+
+.user-normal-list tbody {
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.user-normal-list tbody tr {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+}
+.user-normal-list tbody tr:last-child {
+  border-bottom: none;
+}
+
+.user-normal-list tbody tr td {
+  text-align: center;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  padding: 5px 5px;
+  padding-top: 10%;
+}
+
+.user-normal-list tbody tr td:nth-child(3) {
+  overflow-x: scroll;
+}
+
+.user-normal-list tbody tr td:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: none;
+  padding: 0;
+}
+
+.delete-user-normal,
+.edit-user-normal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.delete-user-normal:hover,
+.edit-user-normal:hover {
+  background-color: #ebeff2;
+}
+
+.delete-user-normal {
+  border-bottom: 1px solid black;
+}
+
+.delete-user-normal > span,
+.edit-user-normal > span {
+  margin-left: 10px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.edit-user-normal-page,
+.add-user-normal-page {
+  width: 80%;
+  padding: 0 5%;
+  padding-bottom: 40px;
+  background-color: white;
+  border-left: 30px solid#ebeff2;
+}
+
+.edit-user-normal-heading,
+.add-user-normal-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.edit-user-normal-heading > span,
+.add-user-normal-heading > span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.edit-user-normal-heading > h2,
+.add-user-normal-heading > h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(103, 103, 104);
+}
+
+.return-to-user-normal-list-page {
+  height: 30px;
+  width: 60px;
+  margin-bottom: 10px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  background-color: #002A51;
+  cursor: pointer;
+}
+
+.edit-user-normal-form,
+.add-user-normal-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.edit-user-normal-form label,
+.add-user-normal-form label {
+  margin-top: 15px;
+}
+
+
+.edit-user-normal-form input,
+.add-user-normal-form input {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  outline-color: blue;
+}
+
+.edit-user-normal-form  > input:last-child,
+.add-user-normal-form  > input:last-child {
+  background-color: #002A51;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 1rem;
+  padding: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

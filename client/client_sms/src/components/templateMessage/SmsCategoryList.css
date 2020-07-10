@@ -1,0 +1,59 @@
+.sms-category-list {
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+}
+
+.search-category-list {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  background-color: rgb(235, 234, 236);
+  overflow: hidden;
+}
+
+.search-category-list input {
+  width: 90%;
+  font-size: 1rem;
+  background-color: rgb(235, 234, 236);
+  outline: none;
+  border: none;
+}
+
+
+.data-category {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 85%;
+  width: 100%;
+}
+
+.data-category-payload {
+  padding: 20px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.data-category-payload:hover {
+  background-color: rgba(122, 155, 238, .4);
+}
+
+.data-category-payload span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(52, 51, 53);
+}
+
+.category-active {
+  background-color: rgb(178, 179, 248);
+}

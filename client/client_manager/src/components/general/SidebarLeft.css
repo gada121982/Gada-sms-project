@@ -1,0 +1,80 @@
+.sidebar-left-fix {
+  position: relative;
+  height: 100%;
+  width: 25%;
+  width: 25%;
+}
+
+.sidebar-left {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  background-color: white;
+}
+
+.search-box {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10%;
+}
+
+.search-box > div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 90%;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: #ebeff2;
+}
+
+.search-box > div input {
+  background-color: #ebeff2;
+  margin-left: 10px;
+  width: 85%;
+  border: none;
+  outline: none;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.contact {
+  display: flex;
+  padding: 10px 10%;
+  width: 100%;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.contact div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: #002A51;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.contact div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  
+}
+
+.active-contact {
+  background-color: #a6cae6;
+}

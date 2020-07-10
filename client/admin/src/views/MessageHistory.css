@@ -1,0 +1,90 @@
+.message-history {
+  width: 80%;
+  padding: 0 5%;
+  padding-bottom: 40px;
+  background-color: white;
+  border-left: 30px solid#ebeff2;
+}
+
+.message-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ebeff2;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.search-bar > input {
+  width: 85%;
+  margin-left: 15px;
+  background-color: #ebeff2;
+  outline: none;
+  border: none;
+}
+
+.message-history-header > h3{
+  font-size: 1.5rem;
+}
+
+.message-history-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-history-list thead {
+  display: flex;
+  width: 100%;
+}
+
+.message-history-list thead tr{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr  1.7fr;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.message-history-list thead tr th{
+padding: 10px 10px;
+ border-right: 1px solid black;
+}
+
+.message-history-list tbody {
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.message-history-list tbody tr {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr  0.5fr 1.7fr;
+}
+.message-history-list tbody tr:last-child {
+  border-bottom: none;
+}
+
+.message-history-list tbody tr td {
+  display: flex;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.message-history-list tbody tr td:last-child {
+  border-right: none;
+  padding: 10px 50px;
+  max-height: 100px;
+  overflow-y: scroll;
+}

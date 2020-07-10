@@ -1,0 +1,7 @@
+.information {
+  display: flex;
+  justify-content: space-between;
+  height: 65vh;
+  width: 100%;
+  background-color: #E9E7ED;
+}

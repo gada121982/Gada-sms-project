@@ -1,0 +1,8 @@
+.template-suggestion {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #E9E7ED;
+  height: 65vh;
+}
+

@@ -1,0 +1,61 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: white;
+}
+
+.customer-name-wraper,
+.phone-number-wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  font-weight: 550;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+}
+
+.input-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  width: 350px;
+  padding-left: 10px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  overflow: hidden;
+  border : 0.7px solid black
+}
+.input-wraper > input {
+  height: 100%;
+  width: 90%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.contact form  input:nth-child(3) {
+  height: 40px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  background-color: #002A51;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+}
+
+.contact form  input:nth-child(3):hover {
+  transform: scale(1.05);
+}

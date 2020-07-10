@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  height: 150vh;
+  background-color: rgb(219, 235, 235);
+}
+
+main {
+  display: flex;
+  height: 120vh;
+  width: 100%;
+  background-color: #ebeff2;;
+}

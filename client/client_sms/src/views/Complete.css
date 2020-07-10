@@ -1,0 +1,113 @@
+.complete {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  height: 65vh;
+}
+
+.final-info-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 55%;
+  margin-right: 5%;
+}
+
+.customer-contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.customer-contact-info h4 {
+  color: rgb(58, 53, 53);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.final-customer-phone {
+  margin-top: 15px;
+}
+
+.final-customer-name span,
+.final-customer-phone span
+{
+  margin-left : 15px;
+  font-weight: 700;
+}
+
+.final-message {
+  width: 70%;
+  height: 75%;
+  padding: 25px;
+  padding-right: 100px;
+  border: 1px solid rgb(71, 70, 70);
+  box-shadow: 0 0 1px 1px rgba(120, 114, 128, 0.329);
+  overflow-y: scroll;
+}
+
+.final-message span {
+  white-space: pre-line;
+  user-select: none;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.show-notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 45%;
+}
+
+.notification-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-message span {
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+  color: rgb(5, 4, 75);
+}
+
+.submit-button-final {
+  background-color: #1b11a5;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-button-final span {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.notification-message-error {
+  border-radius: 5px;
+  background-color: #f8d7da;
+  border: 0.5px solid #f5c6cb;
+  padding: 5px;
+}
+
+.notification-message-error span{
+  font-size: 1.2rem;
+  color: rgb(122, 8, 8);
+}
+
+.everything-done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.everything-done > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}

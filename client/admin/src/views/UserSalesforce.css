@@ -1,0 +1,98 @@
+.user-salesforce {
+  width: 80%;
+  padding: 0 5%;
+  padding-bottom: 40px;
+  background-color: white;
+  border-left: 30px solid#ebeff2;
+}
+
+.user-salesforce-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+}
+
+.search-bar-user-salesforce {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #ebeff2;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.search-bar-user-salesforce > input {
+  width: 85%;
+  margin-left: 15px;
+  background-color: #ebeff2;
+  outline: none;
+  border: none;
+}
+
+.search-bar-user-salesforce > h3{
+  font-size: 1.5rem;
+}
+
+/* ---- */
+
+.user-salesforce-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-salesforce-list thead {
+  display: flex;
+  width: 100%;
+}
+
+.user-salesforce-list thead tr{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr 3fr;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.user-salesforce-list thead tr th{
+padding: 10px 10px;
+ border-right: 1px solid black;
+}
+
+.user-salesforce-list tbody {
+  border: 1px solid black;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.user-salesforce-list tbody tr {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr 3fr;
+}
+.user-salesforce-list tbody tr:last-child {
+  border-bottom: none;
+}
+
+.user-salesforce-list tbody tr td {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 5px;
+  text-align: center;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.user-salesforce-list tbody tr td:nth-child(4) {
+  overflow-x: scroll;
+}
+
+
+.user-salesforce-list tbody tr td:last-child {
+  border-right: none;
+}
+
+
