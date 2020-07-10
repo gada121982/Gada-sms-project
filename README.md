@@ -43,9 +43,6 @@ Gada SMS is a service that provide to client on Salesforce can send sms to their
 <br />
 ![Gada  Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594400166/qnmlzzh7lyuyjoptjsxr.png)
 
-next...
-
-
 ### Built With
 
 * [ReactJS](https://reactjs.org/)
@@ -109,6 +106,20 @@ Any contributions you make are **greatly appreciated**.
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+
+
+<!-- CONTACT -->
+## Contact
+
+| <a href="https://gadadev.tk" target="_blank">**Nguyen Vinh Hai**</a>
+| :---: |
+| [![Nguyen Vinh Hai ](https://avatars.githubusercontent.com/gada121982?s=200)](https://gadadev.tk)| 
+| <a href="https://github.com/gada121982" target="_blank">`github.com/gada121982`</a> |
+
+[@NguynVnhHi1](https://twitter.com/NguynVnhHi1) - [Linkedin](https://www.linkedin.com/in/vinhhai/) - gada121982@gmail.com
+
+
 
 
 
