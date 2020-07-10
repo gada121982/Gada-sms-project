@@ -31,10 +31,11 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 
 ## About The Project
+
+Gada SMS is a service that provide to client on Salesforce can send sms to their customer. We will get contact list fom client's Salesforce account. Beside that, we support an application to client for manage the messages was sent.
 
 ![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391237/pthqzboisozkmwcpchlo.png)
 <br />
@@ -42,8 +43,8 @@
 <br />
 ![Gada  Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594400166/qnmlzzh7lyuyjoptjsxr.png)
 
-Gada SMS is a service that provide to client on Salesforce can send sms to their customer. We will get contact list fom client's Salesforce account. Beside that, we support an application to client for manage the messages was sent
-<br />
+next...
+
 
 ### Built With
 
@@ -99,7 +100,6 @@ docker run -p 8000:8000 -d gcalls-app
 <!-- USAGE EXAMPLES -->
 ## Usage
 More information about how to setup this project
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
