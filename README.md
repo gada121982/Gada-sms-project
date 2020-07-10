@@ -18,7 +18,7 @@
 </p>
 
 
-> :warning: **If you want to run this app**: You might have an api to send sms, so this document is for reference purposes only, you can see demo bellow!
+:warning: **If you want to run this app**: You might have an api to send sms, so this document is for reference purposes only, you can see demo bellow!
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -53,6 +53,37 @@ Gada SMS is a service that provide to client on Salesforce can send sms to their
 * [JSforce](https://jsforce.github.io/)
 * [MongooseJS](https://mongoosejs.com/)
 * [Docker](https://www.docker.com/)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Follow instructions bellow to setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+1. Install Nodejs: [Install NodeJS document](https://nodejs.org/en/download/)
+
+2. Install Docker: [Install Docker document](https://nodejs.org/en/download/)
+
+
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+```sh
+git clone https://github.com/your_username_/Project-Name.git
+```
+3. Install NPM packages
+```sh
+npm install
+```
+4. Enter your API in `config.js`
+```JS
+const API_KEY = 'ENTER YOUR API';
+```
 
 
 
