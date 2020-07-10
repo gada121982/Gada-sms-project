@@ -9,7 +9,7 @@
     <br />
     Provide you a service to send sms and manage sms
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://smsgcalls.tk/">View Demo</a>
     ·
     <a href="https://github.com/gada121982/Gada-sms-project/issues">Report Bug</a>
     ·
@@ -18,7 +18,7 @@
 </p>
 
 
-> :warning: **If you want to run this app**: You might have an api to send sms, so This document is for reference purposes only, you can see demo bellow!
+> :warning: **If you want to run this app**: You might have an api to send sms, so this document is for reference purposes only, you can see demo bellow!
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -34,12 +34,14 @@
 * [Contact](#contact)
 
 ## About The Project
+
+Gada SMS is a service that provide to client on Salesforce can send sms to their customer. We will get contact list fom client's Salesforce account. Beside that, we support an application to client for manage the messages was sent
+<br />
+
 ![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391237/pthqzboisozkmwcpchlo.png)
 
 ![Gada sms Screen Shot](https://res.cloudinary.com/vinhhai/image/upload/v1594391576/nxqmr6smjuntkfpawimv.png)
 
-<br />
-Gada SMS is a service that provide to client on Salesforce can send sms to their customer. We will get contact list fom client's Salesforce account. Beside that, we support an application to client for manage the messages was sent
 
 ### Built With
 
