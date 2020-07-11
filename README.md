@@ -29,7 +29,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
+* [API](#api)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
@@ -95,7 +95,7 @@ docker run -p 8000:8000 -d gcalls-app
 ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## API
 More information about how to setup this project
 
 <!-- CONTRIBUTING -->
