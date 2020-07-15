@@ -96,7 +96,58 @@ docker run -p 8000:8000 -d gcalls-app
 
 <!-- USAGE EXAMPLES -->
 ## API
-More information about how to setup this project
+Authencation api
+- GET  /auth/loginsf
+- POST /auth/loginsf
+- GET  /auth/loginsf/callback
+- GET  /auth/login
+- POST /auth/login
+- POST /auth/logout
+- POST /auth/admin/logout
+
+Admin api
+> Those api have ***admin middleware*** for authentication admin account
+
+- GET  /admin
+
+- GET  /admin/history
+- GET  /admin/usersf/all
+
+- POST /admin/user/add
+- POST /admin/user/delete
+- POST /admin/user/edit
+- GET  /admin/user/all
+
+- POST /admin/template/add
+- POST /admin/template/update
+- POST /admin/template/delete
+- GET  /admin/template/all
+
+- POST /admin/category/add
+- POST /admin/template/delete
+- POST /admin/template/getall
+
+Message api
+> Those api have ***manage middleware*** for authentication user account
+
+- GET  /api/message/contactlist
+- GET  /api/message/category/getall
+- GET  /api/message/template/all
+- GET  /api/template/all
+- GET  /api/template/getbycategory
+
+Proxy api
+> Those api have ***manage middleware*** for authentication user account
+- POST /api/proxy/send
+
+Render message page
+> Those api have ***manage middleware*** for authentication user account
+- GET  /message
+
+Render manage page
+> Those api have ***manage middleware*** for authentication user account
+- GET /
+- GET /api/allcontact
 
 <!-- CONTRIBUTING -->
 ## Contributing
